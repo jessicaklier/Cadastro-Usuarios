@@ -14,14 +14,8 @@ C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Views.csproj.
 C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Views.MvcApplicationPartsAssemblyInfo.cache
 C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\scopedcss\bundle\Views.styles.css
 C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\staticwebassets\Views.StaticWebAssets.Manifest.cache
-C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\staticwebassets\Views.StaticWebAssets.Pack.cache
-C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\staticwebassets\msbuild.Views.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\staticwebassets\msbuild.build.Views.props
-C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Views.props
-C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Views.props
 C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Views.RazorTargetAssemblyInfo.cache
 C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Views.dll
-C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\refint\Views.dll
 C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Views.pdb
 C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Views.genruntimeconfig.cache
 C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\ref\Views.dll
@@ -357,3 +351,8 @@ C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Views.csproj.
 C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Razor\Views\Home\Cadastrar.cshtml.g.cs
 C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Razor\Views\Home\Usuarios.cshtml.g.cs
 C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Razor\Views\Home\Excluir.cshtml.g.cs
+C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\bin\Debug\net5.0\ref\Views.dll
+C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\staticwebassets\Views.StaticWebAssets.xml
+C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
