@@ -356,3 +356,6 @@ C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\staticwebasse
 C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\bin\Debug\net5.0\Views\wwwroot\lib\bootstrap5\package.json
+C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Razor\Views\Shared\_MensagemErro.cshtml.g.cs
+C:\Ricardo Maroquio C#(setembro 2023)\Views\Views\obj\Debug\net5.0\Razor\Views\Shared\_MensagemInfo.cshtml.g.cs

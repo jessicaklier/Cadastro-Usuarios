@@ -9,30 +9,49 @@
     <h1 class="text-primary">Usuários</h1>
     <hr />
     <a href="/Home/Cadastrar" class="btn btn-primary">Novo Usuário</a>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Email</th>
-                <th>Ações</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var u in Model)
-            {
+    @if (TempData.ContainsKey("Excluiu"))
+    {
+        var excluiu = (bool)TempData["Excluiu"];
+        if (excluiu)
+        {
+            <partial name="_MensagemInfo" model="@("Usuario excluido com sucesso.")" />
+        }
+        else
+        {
+            <partial name="_MensagemErro" model="@("Não foi possivel excluir o usuário.")" />
+        }
+    }
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>@u.Nome</td>
-                    <td>@u.Email</td>
-                    <td>
-                        <a asp-action="Cadastrar" asp-route-id="@u.IdUsuario" class="btn btn-sm btn secondary">
-                            Alterar
-                        </a>
-                        <a asp-action="Excluir" asp-route-id="@u.IdUsuario" class="btn btn-sm btn danger">
-                            Excluir
-                        </a>
-                    </td>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Ações</th>
                 </tr>
-            }
-        </tbody>
-    </table>
-</div>
+            </thead>
+            <tbody>
+                @foreach (var u in Model)
+                {
+                    <tr>
+                        <td>@u.Nome</td>
+                        <td>@u.Email</td>
+                        <td>
+                            <a asp-action="Cadastrar" asp-route-id="@u.IdUsuario" class="btn btn-sm btn secondary">
+                                Alterar
+                            </a>
+                            <a asp-action="Excluir" asp-route-id="@u.IdUsuario" class="btn btn-sm btn danger">
+                                Excluir
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @section Scripts{
+            <script src="/lib/bootstrap5/dist/js/bootstrap.js"></script>
+        }
+
+        @section LogoPagina{
+            <img src="~/Views/wwwroot/img/usuarios.png" height="24" class="d-inline-block align-text-bottom" />
+        }
+    </div>

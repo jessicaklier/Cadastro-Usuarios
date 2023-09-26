@@ -43,13 +43,14 @@ namespace Views.Models
                 Usuario.listagem.Add(usuario);
             }
         }
-        public static void Excluir(int idusuario)
+        public static bool Excluir(int idusuario)
         {
             var usuarioExistente = Usuario.listagem.Find(u => u.IdUsuario == idusuario);
             if(usuarioExistente != null)
             {
-                Usuario.listagem.Remove(usuarioExistente);
+                return Usuario.listagem.Remove(usuarioExistente);
             }
+            return false;
         }
     }
 }
